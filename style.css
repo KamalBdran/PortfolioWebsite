@@ -6,8 +6,7 @@ padding: 0;
 box-sizing:border-box ;
 font-family: 'Poppins' , 'sans-serif' ;
 }
-body{
-   /* background:#081b29;*/    
+body{   
      color: hsl(261, 76%, 59%);
 }
 .header{
@@ -126,8 +125,7 @@ animation: slideLeft 1s ease forwards;
     right: 10px;
     padding: 10px 5px 7px;
     animation: slideTop 1s ease forwards;
-    animation-delay: 1.8s;
-   
+    animation-delay: 1.8s;   
 }
 .btn-box::before {
     content: '';
@@ -140,8 +138,7 @@ animation: slideLeft 1s ease forwards;
     background:linear-gradient(45deg,#f06,#3cf,#f06);
     background-size: 200%;
     background-position: 0 0;
- /* animation: showRight 1s ease forwards;
-  animation-delay: 2.1s;*/
+
   z-index: -1;
   border-radius: 40px;
   filter: blur(5px);
@@ -162,8 +159,6 @@ transition: .5s ease;
     background:linear-gradient(45deg,#f06,#3cf,#f06);
     background-position: 0 0;
     background-size: 200%;
-  /*animation: showRight 1s ease forwards;
-  animation-delay: 2.1s;*/
   z-index: -1;
   border-radius: 40px;
   transition: .5 ease;
@@ -294,10 +289,6 @@ left: 50%;
 transform: translateX(-50%);
 position: absolute;
 }
-/*.home-imgHover:hover {
-background: #081b29;
-opacity: .8;
-}*/
 
 @keyframes slideTop{
 
@@ -345,7 +336,7 @@ transform: translateY(0);
     transform: translateX(0);
     }
     }
-@keyframes showRight  {
+@keyframes showRight {
 100%{
     width:0;
 }
