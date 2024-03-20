@@ -25,7 +25,7 @@ z-index: 100;
 .logo{
     position: relative;
     font-size: 25px;
-    color: blanchedalmond;
+    color:#ff80c0;
     text-decoration: none ;
     font-weight: 600;
 }
@@ -58,7 +58,7 @@ display: inline-block;
 .navebar a:hover {
     background:linear-gradient(45deg,#f06,#3cf);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip : text;
 }
 .home {
     display: flex;
@@ -83,21 +83,7 @@ line-height: 1.2;
 opacity: 0;
 animation: slideRight 1s ease forwards;
 animation-delay: .7s;
-
 }
-/*.home-content h1::before{
-
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 1s;
-
-}*/
 .home-content h3{
 position: relative;
 font-size: 32px;
@@ -108,22 +94,11 @@ opacity: 0;
 animation: slideLeft 1s ease forwards;
   animation-delay: 1s;
 }
-/*.home-content h3::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 1.5s;
-
-}*/
 .home-content p{
+    display: inline;
     position: relative;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 500;
     margin: 20px 0 40px;
     color:#FBA834;
     opacity: 0;
@@ -131,19 +106,6 @@ animation: slideLeft 1s ease forwards;
     animation-delay: 1.3s;
 
 }
-/*
-.home-content p::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    background: #081b29;
-  animation: showRight 1s ease forwards;
-  animation-delay: 2s;
-
-}*/
 .btn-box{
     position: relative;
     display:inline-flex;
@@ -155,12 +117,17 @@ animation: slideLeft 1s ease forwards;
     letter-spacing: 1px;
     color: aliceblue;
     font-size: 18px;
-    width: 180px;
-    height: 50px;
+    height: 30%;
+    width: 30%;
     z-index: 1;
     opacity: 0;
+    margin: 1.5%;
+    top: 20px;
+    right: 10px;
+    padding: 10px 5px 7px;
     animation: slideTop 1s ease forwards;
     animation-delay: 1.8s;
+   
 }
 .btn-box::before {
     content: '';
@@ -209,7 +176,7 @@ transition: .5s ease;
 .home-sci {
 position: absolute;
 bottom: 20px;
-width: 450px;
+width: 25%;
 display:inline-flex;
 justify-content:space-between;
 opacity: 0;
